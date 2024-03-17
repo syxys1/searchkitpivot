@@ -15,7 +15,7 @@ return [
         'name' => 'crm-search-display-pivot',
         'label' => E::ts('Pivot table'),
         'description' => E::ts('Displays results as a pivot table.'),
-        'icon' => 'fa-table',
+        'icon' => 'fa-table fa-rotate-270',
       ],
       'match' => ['option_group_id', 'name'],
     ],
